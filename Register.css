@@ -1,0 +1,107 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center  ;
+}
+
+.wrapper
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    box-shadow:0 0 10px;
+    padding: 30px 40px;
+    margin: 5%;
+}
+
+.wrapper h1
+{
+    font-family: cursive;
+}
+
+.input-box
+{
+    background: transparent;
+    position: relative;
+    width: fit-content;
+}
+
+input
+{
+    height:100%;
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-family: cursive;
+    padding: bottom 15px;
+    padding-left: 10px;
+}
+
+.btn
+{
+    background: white;
+    width:100%;
+    height: 30px;
+    border:20px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+.btn:hover
+{
+    background: rgb(0, 0, 0);
+    width:100%;
+    height: 30px;
+    border:20px rgb(255, 255, 255);
+    border-radius: 20px;
+    color: white;
+    margin-top: 10%;
+}
+
+select
+{
+    height:100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    font-family: cursive;
+    padding: bottom 5px;
+    padding-left: 10px;
+}
+
+option
+{
+    width:100%;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.txt
+{
+    font-size: 30px;
+}
+
+.column
+{
+    width: 100/6%;
+}

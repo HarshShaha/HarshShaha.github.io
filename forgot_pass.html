@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="New.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body background="imgs/class.jpg" style="background-repeat: no-repeat;background-size: cover;">
+        <div class="wrapper" style="border:10px">
+            <form action="student_db.php" method="post">
+                <h1>Forgot Password</h1>
+                <div class="security">
+                    <span style="font-size: 20px;">Security Question: </span> 
+                    <select>
+                        <option name="Favourite_Pet" value="Favourite Pet">Your favourite pet animal?</option>
+                        <option name="Primary_School" value="Primary School">What was the name of your primary school?</option>
+                        <option name="Favourite_Food" value="Favourite Food">What is your favourite food?</option>
+                        <option name="Best_Friend" value="Best Friend">What is your best friend's name?</option>
+                    </select>
+                </div>
+                <div class="security">
+                    <span style="font-size: 20px;">Security Answer: </span>
+                    <input type="text" name="pass" value="pass">
+                </div>
+                <div>
+                    <button type="submit" value="Verify" class="btn" style="height:40px;">Verify</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

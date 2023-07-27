@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Register.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body background="imgs/class.jpg" style="background-repeat: no-repeat;background-size: cover;background-position: center;background-attachment: fixed;">
+        <form action="student_db.php" method="post">
+            <div class="main">
+                <div class="wrapper">
+                        <h1>Course Information</h1>
+                                <div class="input-box">
+                                        <span class="txt">Course: </span>
+                                        <select name="course"required>
+                                            <option name="FE" value="FE">FE</option>
+                                            <option name="SE" value="SE">SE</option>
+                                            <option name="TE" value="TE">TE</option>
+                                            <option name="BE" value="BE">BE</option>
+                                        </select>
+                                </div>
+                                <div class="input-box">
+                                    <td class="column">
+                                        <span class="txt">DIV: </span>
+                                        <select name="division"  required>
+                                            <option name="A" value="A">A</option>
+                                            <option name="B" value="B">B</option>
+                                        </select>
+                                </div>
+                    </form>
+                </div>
+
+                <div class="wrapper" style="flex-direction: column;">
+                        <h1>Student Information</h1>
+                        <table>
+                            <tr>
+                                <div class="input-box">
+                                <td>
+                                    <span class="txt">ID: </span>
+                                </td>
+                                <td>
+                                    <input type="text" name="id" value="" required>
+                                </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Name: </span>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="name" value="" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Teacher: </span>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="teacher" value="" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Roll no.: </span>
+                                    </td>
+                                    <td>
+                                        <input type="number" name="roll_no" value="" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt" style="align-self: center;">Gender: </span>
+                                    </td>
+                                    <td>
+                                        <select name="gender" required>
+                                            <option name="Male" value="Male">Male</option>
+                                            <option name="Female" value="Female">Female</option>
+                                        </select>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">DOB: </span>
+                                    </td>
+                                    <td>
+                                        <input type="date" name="dob" value="" required>
+                                    </td>                                
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Email: </span>
+                                    </td>
+                                    <td>
+                                        <input type="email" name="email" value="" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Phone no.: </span>
+                                    </td>
+                                    <td>
+                                        <input type="tel" name="phone" value="" pattern="[0-9]{10}" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Security Question: </span>
+                                    </td> 
+                                    <td>
+                                        <select name="sec_que" required>
+                                            <option name="Favourite_Pet" value="Favourite Pet">Your favourite pet animal?</option>
+                                            <option name="Primary_School" value="Primary School">What was the name of your primary school?</option>
+                                            <option name="Favourite_Food" value="Favourite Food">What is your favourite food?</option>
+                                            <option name="Best_Friend" value="Best Friend">What is your best friend's name?</option>
+                                        </select>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Answer.: </span>
+                                    </td>
+                                    <td>
+                                        <input type="text" name="sec_ans" value="" required>
+                                    </td>
+                                </div>
+                            </tr>
+                            <tr>
+                                <div class="input-box">
+                                    <td>
+                                        <span class="txt">Address: </span>
+                                    </td>
+                                    <td>
+                                        <input type="textarea" name="address" value="" style="height: 250px;width: 500px;" required>
+                                    </td>
+                                </div>
+                            </tr>
+                        </table> 
+                        <div>
+                            <button type="submit" value="Login" class="btn" style="height: 50px;" name='save'>Submit</button>
+                        </div> 
+                </div>
+            </div>
+        </form>
+
+    </body>
+</html>
