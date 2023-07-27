@@ -1,4 +1,3 @@
-# HarshShaha.github.io
 <!DOCTYPE html>
 <html>
     <head>
