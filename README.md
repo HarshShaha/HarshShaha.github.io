@@ -9,11 +9,11 @@
             <form action="student_db.php" method="post">
                 <h1>Login</h1>
                 <div class="input-box">
-                    <input type="text" name="name" value="name">
+                    <input type="text" name="name" value="">
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="password" name="pass" value="pass">
+                    <input type="password" name="pass" value="">
                     <i class='bx bxs-lock'></i>
                 </div>
                 <div>
